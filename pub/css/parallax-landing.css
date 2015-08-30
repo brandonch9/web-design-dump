@@ -1,0 +1,83 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  box-sizing: content-box; }
+
+h1 {
+  font-weight: 100;
+  font-size: 36px;
+  color: #aaa; }
+
+p {
+  margin: 32px 0;
+  font-weight: 400; }
+
+article {
+  text-align: center;
+  padding-top: 40px; }
+
+.col-2 {
+  max-width: 520px;
+  margin: 0 auto; }
+
+hr {
+  border: 0;
+  border-top: 2px solid;
+  border-color: #eee; }
+
+.clothes-pics img {
+  max-width: 160px;
+  margin-bottom: 20px;
+  opacity: 0;
+  -webkit-transform: translateX(-20px);
+  -ms-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
+
+.clothes-pics {
+  margin-top: 28px; }
+
+.img-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.clothes-pics img.is-showing {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px); }
+
+@media (max-width: 640px) {
+  .col-2 {
+    max-width: 240px; }
+
+  .img-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+
+  .clothes-pics img {
+    width: 100%;
+    max-width: 240px; } }
+.draymond {
+  height: 600px;
+  background-image: url(/img/draymond.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+/*# sourceMappingURL=parallax-landing.css.map */

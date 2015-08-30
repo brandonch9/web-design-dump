@@ -1,0 +1,48 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #fd3617; }
+
+.page-wrap {
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial; }
+
+h5 {
+  margin: 0;
+  font-size: 17px;
+  text-transform: uppercase; }
+
+.first-h5 {
+  margin-bottom: 10px; }
+
+.second-h5 {
+  margin-bottom: 32px; }
+
+h1 {
+  margin: 0;
+  font-size: 98px;
+  text-transform: uppercase;
+  line-height: 71px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+  text-shadow: 48px 0 #f75929;
+  margin-left: -48px; }
+
+p {
+  margin: 0;
+  color: #efefef;
+  max-width: 423px; }
+
+.subheader {
+  font-size: 9px;
+  margin-bottom: 3px; }
+
+.body-copy {
+  font-size: 12px; }
+
+/*# sourceMappingURL=supreme.css.map */
